@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchedFromSDKPipeline: 1
+  launchedFromSDKPipeline: 0
   completedSDKPipeline: 0
   blueprintId: avtr_d01d8cc9-f979-4528-a730-e38340389346
   contentType: 0
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  ViewPosition: {x: 0, y: 2, z: 0}
+  ViewPosition: {x: 0, y: 4, z: 0}
   Animations: 0
   ScaleIPD: 1
   lipSync: 0
