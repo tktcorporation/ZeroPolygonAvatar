@@ -310,6 +310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3193117494351835776, guid: 5edcba10f759f2b41b11542e3c33e00e,
         type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193117494351835776, guid: 5edcba10f759f2b41b11542e3c33e00e,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -358,6 +363,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3193117494351835778, guid: 5edcba10f759f2b41b11542e3c33e00e,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3193117494351835779, guid: 5edcba10f759f2b41b11542e3c33e00e,
         type: 3}
       propertyPath: m_Name
@@ -385,10 +395,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 0
   completedSDKPipeline: 0
-  blueprintId: avtr_d01d8cc9-f979-4528-a730-e38340389346
+  blueprintId: avtr_9a1c8eed-631d-43c7-8033-8062c6e7750e
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 0
+  fallbackStatus: 2
 --- !u!114 &3193117493213723318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,7 +412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: 
-  ViewPosition: {x: 0, y: 4, z: 0}
+  ViewPosition: {x: 0, y: 1.7, z: 0}
   Animations: 0
   ScaleIPD: 1
   lipSync: 0
@@ -412,12 +422,13 @@ MonoBehaviour:
   VisemeSkinnedMesh: {fileID: 0}
   MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
   VisemeBlendShapes: []
-  unityVersion: 2018.4.20f1
+  unityVersion: 2019.4.31f1
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  customExpressions: 0
-  expressionsMenu: {fileID: 0}
-  expressionParameters: {fileID: 0}
+  customExpressions: 1
+  expressionsMenu: {fileID: 11400000, guid: 024fb8ef5b3988c46b446863c92f4522, type: 2}
+  expressionParameters: {fileID: 11400000, guid: 03a6d797deb62f0429471c4e17ea99a7,
+    type: 2}
   enableEyeLook: 0
   customEyeLookSettings:
     eyeMovement:
@@ -492,16 +503,6 @@ MonoBehaviour:
   baseAnimationLayers:
   - isEnabled: 0
     type: 0
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  - isEnabled: 0
-    type: 2
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  - isEnabled: 0
-    type: 3
     animatorController: {fileID: 0}
     mask: {fileID: 0}
     isDefault: 1
@@ -647,7 +648,26 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &3193117493213723319
+--- !u!95 &3193117493213723319
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193117493213723316}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3193117493213723320
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

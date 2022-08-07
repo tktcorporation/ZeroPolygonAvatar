@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.github.kurotu.vrc-quest-tools": {
+      "version": "https://github.com/kurotu/VRCQuestTools.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d953b4ad764b11ac2a5121c8e1daf817fdaa08de"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
